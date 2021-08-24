@@ -1,0 +1,138 @@
+.content {
+    width: 1020px;
+    background-color: #f6f5f3;
+    margin: 0px auto;
+}
+
+.logo {
+    margin: 0 74px 0 744px;
+}
+
+.text-cars {
+    margin: 33px 26px 0 51px;
+    width: 650px;
+}
+
+.text-cars > h1 {
+    font-size: 36px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: #ffdb4a;
+    box-shadow: #fc965e 1px 0;
+    text-align: center;
+}
+
+.top-content {
+    display: flex;
+    align-items: center;
+}
+
+.leftcirc {
+    margin-left: 72px;
+}
+
+.rightcirc {
+    margin-left: 0px;
+}
+
+.left {
+    display: inline-block;
+    margin-top: 18px;
+}
+
+.right {
+    display: inline-block;
+    margin-top: 16px;
+}
+.vid-block {
+    position: relative;
+    display: inline-block;
+    margin: 56px 173px 0 174px;
+}
+.vid {
+    width: 640px;
+    height: 325px;
+}
+.p-container {
+    width: 640px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    text-align: center;
+}
+.p-container > p {
+    margin: auto;
+    padding: 5px 0;
+    font-size: 29px;
+    color: white;
+}
+
+.vid-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+    background: #ffdb4a;
+    box-shadow: #fc965e 1px 0;
+    margin: 121px 259px 114px 256px;
+    border: 1px red solid;
+    position: absolute;
+}
+.vid-arrow {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 47px;
+}
+.easy {
+    margin-top: 70px;
+    font-size: 47px;
+    text-align: center;
+}
+
+.ways {
+    display: flex;
+    justify-content: center;
+    margin: 40px 4px 0 40px;
+}
+
+.way {
+    width: 240px;
+    height: 240px;
+    margin-right: 18px;
+}
+.way-img {
+    height: 75px;
+}
+.way-name {
+    margin-top: 8px;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.way-text {
+    font-size: 16px;
+}
+.choose {
+    margin-top: 72px;
+    font-size: 42px;
+    text-align: center;
+}
+.try {
+    margin: 65px 333px 67px;
+    background-image: radial-gradient(#ffdb01, #ffe348);
+    width: 320px;
+    height: 70px;
+    border-radius: 5px;
+}
+.try > span {
+    font-size: 36px;
+}
+.circle:hover,
+.vid-circle:hover,
+.try:hover {
+    opacity: 0.8;
+}
